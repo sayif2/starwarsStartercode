@@ -4,7 +4,11 @@ img {
   align-self: center;
 }
 
+a{
 
+  align-self: center;
+
+}
 
 
 @font-face {
@@ -15,21 +19,52 @@ img {
 
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #291d1d;
 }
 
 
 
 h1 {
   font-family: "SF Distant Galaxy";
+  color:#0d121b;
 }
 
+a{
+  color:red;
+}
+
+nav{
+  display: flex;
+  flex-direction:column;
+}
+
+.center{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 
 /* computer */
 @media screen and (min-width: 600px) {
+  .nav{
+    display:flex;
+    justify-content: space-around;
+    flex-direction:row;
+  }
+  .center{
+
+flex-direction:row;
+
+  }
+
+  nav{
+
+flex-direction:row;
+justify-content: space-around;
+
+  }
 
 
 
 }
-
