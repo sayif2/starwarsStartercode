@@ -19,18 +19,18 @@ a{
 
 /* phone */
 body {
-  background-color: #291d1d;
+  background-color: #308176;
 }
 
 
 
 h1 {
   font-family: "SF Distant Galaxy";
-  color:#6acc4c;
+  color:#5e1044;
 }
 
 a{
-  color:red;
+  color:rgb(0, 255, 76);
 }
 
 nav{
